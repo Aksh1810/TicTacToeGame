@@ -172,8 +172,6 @@ void drawWinningLine(sf::RenderWindow &window, const GameState &gameState)
 
     if (board[0][2] != Player::None && board[0][2] == board[1][1] && board[1][1] == board[2][0])
     {
-        float diagonalLength = sqrt(2) * GRID_SIZE * CELL_SIZE;
-
         const float lineThickness = 7.0f;
 
         std::vector<sf::Vertex> thickLine;

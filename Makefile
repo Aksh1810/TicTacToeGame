@@ -7,7 +7,7 @@ LDFLAGS = -L$(SFML_DIR)/lib -lsfml-graphics -lsfml-window -lsfml-system -lsfml-a
 SRC = main.cpp game.cpp
 OBJ = $(SRC:.cpp=.o)
 
-EXEC = tic_tac_toe
+EXEC = sfml
 
 all: $(EXEC)
 
